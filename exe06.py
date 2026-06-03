@@ -5,6 +5,7 @@ def contador_de_vogais(texto):
             contador += 1
     return contador
 
-texto = input("Digite sua palavra: ")
-contador_de_vogais(texto)
-print (contador_de_vogais(texto))
+if __name__ == "__main__":
+    texto = input("Digite sua palavra: ")
+    contador_de_vogais(texto)
+    print (contador_de_vogais(texto))

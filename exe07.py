@@ -4,5 +4,6 @@ def fatorial(n):
         resultado = resultado * i
     return resultado
 
-num = int(input("Digite seu Número: "))
-print(fatorial(num))
+if __name__ == "__main__":
+    num = int(input("Digite seu Número: "))
+    print(fatorial(num))

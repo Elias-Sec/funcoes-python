@@ -4,10 +4,10 @@ def login(usuario,senha):
     else:
         return "Usuário ou senha incorretos."
 
+if __name__ == "__main__":
+    usuario_input = input("Digite o nome de usuário: ")
+    senha_input = input("Digite a senha: ")
 
-usuario_input = input("Digite o nome de usuário: ")
-senha_input = input("Digite a senha: ")
-
-login(usuario_input, senha_input)
-print(login(usuario_input, senha_input))
+    login(usuario_input, senha_input)
+    print(login(usuario_input, senha_input))
 

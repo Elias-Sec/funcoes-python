@@ -5,5 +5,6 @@ def contador_regressivo(n):
     print(n)
     contador_regressivo(n - 1)
 
-num = int(input("Digite um número para o contador regressivo: "))
-contador_regressivo(num)
+if __name__ == "__main__":
+    num = int(input("Digite um número para o contador regressivo: "))
+    contador_regressivo(num)

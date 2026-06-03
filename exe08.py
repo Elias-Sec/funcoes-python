@@ -4,10 +4,11 @@ def media_lista(numeros):
     else:
         return sum(numeros) / len(numeros)
 
-num1 = int(input("Digite o primeiro número: "))
-num2 = int(input("Digite o segundo número: "))
-num3 = int(input("Digite o terceiro número: "))
+if __name__ == "__main__":
+    num1 = int(input("Digite o primeiro número: "))
+    num2 = int(input("Digite o segundo número: "))
+    num3 = int(input("Digite o terceiro número: "))
 
-numeros = [num1, num2, num3]
-media = media_lista(numeros)
-print("A média dos números é:", media)
+    numeros = [num1, num2, num3]
+    media = media_lista(numeros)
+    print("A média dos números é:", media)

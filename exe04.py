@@ -9,7 +9,7 @@ def maior_numero(a, b):
         print ("Os Números são iguais!")
 
 
-
-num1 = int(input("Digite seu número: "))
-num2 = int(input("Digite seu número: "))
-maior_numero(num1,num2)
+if __name__ == "__main__":
+    num1 = int(input("Digite seu número: "))
+    num2 = int(input("Digite seu número: "))
+    maior_numero(num1,num2)

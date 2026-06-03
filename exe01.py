@@ -1,5 +1,5 @@
 def saudacao(nome): 
     print (f"Olá {nome}, Seja Bem Vindo!")
 
-
-saudacao("Wendell")
+if __name__ == "__main__":
+    saudacao("Wendell")
