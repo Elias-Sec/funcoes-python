@@ -1,8 +1,8 @@
 def login(usuario,senha):
     if usuario == "admin" and senha == "1234":
-        return "Login bem-sucedido!"
+        print("Login bem-sucedido!")
     else:
-        return "Usuário ou senha incorretos."
+        print("Usuário ou senha incorretos.")
 
 if __name__ == "__main__":
     usuario_input = input("Digite o nome de usuário: ")

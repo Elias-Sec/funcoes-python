@@ -3,7 +3,8 @@ def contador_de_vogais(texto):
     for char in texto:
         if char in "aeiou".lower():
             contador += 1
-    return contador
+    print (contador)
+
 
 if __name__ == "__main__":
     texto = input("Digite sua palavra: ")

@@ -1,7 +1,8 @@
 def palindromo(texto):
     texto_limpo = texto.replace(" ", "").lower()
-    
+
     return texto_limpo == texto_limpo[::-1]
+    print (texto_limpo)
 
 if __name__ == "__main__":
     texto_input = input("Digite um texto para verificar se é um palíndromo: ")

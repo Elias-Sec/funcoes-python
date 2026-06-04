@@ -1,13 +1,14 @@
 def calculadora(a, b, operacao):
+  resultado = 0
   if operacao == "+":
-    result = a + b
+    resultado = a + b
   elif operacao == "-":
-    result = a - b
+    resultado = a - b
   elif operacao == "*":
-    result = a * b
+    resultado = a * b
   else:
-    result = a / b
-  return result    
+    resultado = a / b
+  print(resultado)  
 
 if __name__ == "__main__":
   operacao = input("Digite a Operação Deseja: ")
